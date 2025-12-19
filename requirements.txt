@@ -1,0 +1,14 @@
+# Core
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Person Detection
+ultralytics>=8.0.0  # YOLOv8
+
+# Face Recognition (DeepFace - easier install than dlib)
+deepface>=0.0.90
+tf-keras>=2.15.0
+
+# Utilities (already in ultralytics/deepface deps)
+torch>=2.0.0
+torchvision>=0.15.0
